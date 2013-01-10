@@ -35,7 +35,7 @@ expect(function() {
 Install `expect.js` and `expect-change` with NPM or add it to your package.json:
 
 ```js
-$ npm install expect.js expect-change.js
+$ npm install expect.js expect-change
 ```
 
 Then:
