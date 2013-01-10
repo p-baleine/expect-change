@@ -27,3 +27,37 @@ expect(function() {
       .change(function() { return cnt; });
 }).to.throwException();
 ```
+
+## How to use
+
+### Node
+
+Install `expect.js` and `expect-change` with NPM or add it to your package.json:
+
+```javascript
+$ npm install expect.js expect-change.js
+```
+
+Then:
+
+```javascript
+var expect = require('expect.js'),
+    expectChange = require('expect-change');
+```
+
+### Browser
+
+Include script tag after `expect.js`
+
+```html
+<script src="expect.js"></script>
+<script src="expect-change.js"></script>
+```
+
+## API
+
+**change**: check if the value is changed
+
+**to**: check if the value is changed to expected value
+
+**from**: heck if the value is changed from expected value
