@@ -1,5 +1,5 @@
 
-describe("expect-change-extension", function() {
+describe("expect-change", function() {
   it("change interface should be exist", function() {
     expect(expect().change).to.be.a(Function);
   });

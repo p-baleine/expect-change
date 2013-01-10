@@ -1,4 +1,4 @@
-# expect-change-extension
+# expect-change
 
 Change assertion extension for expect.js
 

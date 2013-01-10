@@ -1,1 +1,1 @@
-module.exports = require("./lib/expect-change-extension");
+module.exports = require("./lib/expect-change");
