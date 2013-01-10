@@ -1,4 +1,4 @@
-# expect-change
+# expect-change [![Build Status](https://travis-ci.org/p-baleine/expect-change.png?branch=master)](https://travis-ci.org/p-baleine/expect-change)
 
 Change assertion extension for expect.js
 
