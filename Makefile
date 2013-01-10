@@ -4,7 +4,4 @@ test:
 	--reporter spec \
 	--ui bdd
 
-test-browser:
-	@./node_modules/.bin/serve .
-
 .PHONY: test
