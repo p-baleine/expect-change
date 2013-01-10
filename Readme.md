@@ -34,13 +34,13 @@ expect(function() {
 
 Install `expect.js` and `expect-change` with NPM or add it to your package.json:
 
-```javascript
+```js
 $ npm install expect.js expect-change.js
 ```
 
 Then:
 
-```javascript
+```js
 var expect = require('expect.js'),
     expectChange = require('expect-change');
 ```
