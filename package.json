@@ -5,7 +5,6 @@
   "main": "./index",
   "devDependencies": {
     "expect.js": "*",
-    "mocha": "*",
-    "serve": "*"
+    "mocha": "*"
   }
 }
