@@ -1,0 +1,11 @@
+{
+  "name": "expect-change-extension",
+  "version": "0.0.1",
+  "description": "change assertion extension for expect.js.",
+  "main": "./index",
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "serve": "*"
+  }
+}
