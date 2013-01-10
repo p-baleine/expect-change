@@ -1,7 +1,6 @@
 test:
 	@./node_modules/.bin/mocha \
-	--recursive \
-	--require should \
+	--require ./test/common \
 	--reporter spec \
 	--ui bdd
 

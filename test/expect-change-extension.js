@@ -1,11 +1,4 @@
 
-/**
- * Module dependencies.
- */
-
-var expect = require("expect.js"),
-    expectChangeExtension = require("../lib/expect-change-extension");
-
 describe("expect-change-extension", function() {
   it("change interface should be exist", function() {
     expect(expect().change).to.be.a(Function);
