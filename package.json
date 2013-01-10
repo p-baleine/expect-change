@@ -1,10 +1,16 @@
 {
-  "name": "expect-change-extension",
+  "name": "expect-change",
   "version": "0.0.1",
   "description": "change assertion extension for expect.js.",
+  "author": "Tajima Junpei <p.baleine@gmail.com>",
   "main": "./index",
   "devDependencies": {
     "expect.js": "*",
     "mocha": "*"
-  }
+  },
+  "keywords": [
+    "expect"
+  ],
+  "repository": "git://github.com/p-baleine/expect-change",
+  "engines": { "node": "*" }
 }
