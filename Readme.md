@@ -2,30 +2,21 @@
 
 Change assertion extension for expect.js
 
-```javascript
-var cnt = 0;
-    
-expect(function() { cnt = 101; }).to
-    .change(function() { return cnt; });
+```js
+// sample obj
+var counter = {
+  increment: function() {
+    this.counter = this.counter || 0;
+    this.counter += 1;
+  },
+  count: function() {
+    return (this.counter = this.counter || 0);
+  }
+};
 
-var cnt = 0;
-
-expect(function() { cnt = 101; }).to
-    .change(function() { return cnt; }).from(0).to(101);
-
-var cnt = 0;
-
-expect(function() {    
-  expect(function() { cnt = 0; }).to
-      .change(function() { return cnt; });
-}).to.throwException();
-
-var cnt = 0;
-    
-expect(function() {
-  expect(function() { cnt = 101; }).to.not
-      .change(function() { return cnt; });
-}).to.throwException();
+// expectation
+expect(function() { counter.increment(); })
+    .to.change(function() { return counter.count(); }).from(0).to(1);
 ```
 
 ## How to use
