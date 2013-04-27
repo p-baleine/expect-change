@@ -1,0 +1,22 @@
+{
+  "name": "expect-change",
+  "version": "0.0.1",
+  "description": "Change assertion extension for expect.js",
+  "main": "./index",
+  "keywords": [
+    "expect"
+  ],
+  "homepage": "https://github.com/p-baleine/expect-change",
+  "bugs": "https://github.com/p-baleine/expect-change/issues",
+  "author": {
+    "name": "Tajima Junpei",
+    "email": "p.baleine@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/p-baleine/expect-change"
+  },
+  "dependencies": {
+    "expect": "latest"
+  }
+}
